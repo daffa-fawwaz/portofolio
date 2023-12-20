@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Porto</title>
+    <!-- POPPINS START -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- POOPINS END -->
+    <!-- PHOSPOR ICON START -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!-- PHOSPOR ICON END -->
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- BOOTSRAP END -->
+    <!-- AOS START -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- AOS END -->
+  </head>
+  <body>
+    <div class="overflow">
+      <nav>
+        <div class="logo">
+          <h6><span>My</span> Porto</h6>
+        </div>
+        <ul class="sidebar">
+          <li onclick="hideSidebar()">
+            <a href="#"><i class="ph-bold ph-x"></i></a>
+          </li>
+          <li><a href="">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#certificate">Certificate</a></li>
+          <li><a href="#porto">Portofolio</a></li>
+        </ul>
+        <ul>
+          <li class="hideOnMobile"><a href="">Home</a></li>
+          <li class="hideOnMobile"><a href="#about">About</a></li>
+          <li class="hideOnMobile"><a href="#resume">Resume</a></li>
+          <li class="hideOnMobile"><a href="#certificate">Certificate</a></li>
+          <li class="hideOnMobile"><a href="#porto">Portofolio</a></li>
+          <li class="menu-btn" onclick="showSidebar()">
+            <a href="#"><i class="ph-bold ph-list"></i></a>
+          </li>
+        </ul>
+      </nav>
+
+      <header id="header">
+        <div class="header-content">
+          <div class="header-info" data-aos="fade-right">
+            <h2>Hello, I am</h2>
+            <h1>Daffa Fawwaz</h1>
+            <p>Front end Dev | UI/UX Designer</p>
+            <a href="#overlay">Hire Me</a>
+          </div>
+          <div class="overlay" id="overlay">
+            <div class="overlay-content">
+              <div class="image-box">
+                <img src="images/profile.JPG" alt="" />
+              </div>
+              <div class="info-profile">
+                <p>
+                  Halo nama saya Muhammad Daffa Ibnu Fawwazy , biasa saya
+                  dipanggil Daffa saya lahir pada 31 Agustus 2005 dan saya
+                  sekarang tinggal di Tulungaggung dan sedang menempuh
+                  pendidikan SMA di Purworejo
+                </p>
+                <div class="sosmed">
+                  <div class="insta">
+                    <i class="ph-bold ph-instagram-logo"></i>
+                    <p>dffawwaz</p>
+                  </div>
+                  <div class="github">
+                    <i class="ph-bold ph-github-logo"></i>
+                    <p>DaffaFawwaz</p>
+                  </div>
+                  <div class="linkedin">
+                    <i class="ph-bold ph-linkedin-logo"></i>
+                    <p>Daffa Fawwaz</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="#">Close</a>
+          </div>
+        </div>
+      </header>
+
+      <!-- ABOUT -->
+
+      <section class="about" id="about">
+        <div class="about-content" data-aos="fade-up">
+          <div class="about-left">
+            <h2>Who am I ?</h2>
+            <div class="line"></div>
+            <h3>A Web Developer / UI/UX Designer</h3>
+            <p>
+              Halo nama saya Muhammad Daffa Ibnu Fawwazy dan saya adalah seorang
+              Web Developer dan UI/UX Designer
+            </p>
+          </div>
+          <div class="about-center">
+            <h2>Personal Info</h2>
+            <div class="line"></div>
+            <p><span>Birthdate</span>:31 August 2005</p>
+            <p><span>Email</span>:daffafawwaz532@gmail.com</p>
+            <p><span>Phone</span>:+(62)85895080043</p>
+            <p><span>Address</span>:Tulungagung JawaTimur</p>
+            <div class="sosmed">
+              <a href="https://www.instagram.com/dffawwaz/" target="_blank"
+                ><i class="ph-bold ph-instagram-logo"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/daffa-fawwaz-17b77528a/"
+                target="_blank"
+                ><i class="ph-bold ph-linkedin-logo"></i
+              ></a>
+              <a href="https://github.com/daffa-fawwaz" target="_blank"
+                ><i class="ph-bold ph-github-logo"></i
+              ></a>
+              <a href=""><i class="ph-bold ph-envelope"></i></a>
+            </div>
+          </div>
+          <div class="about-right">
+            <h2>My Expertise</h2>
+            <div class="line"></div>
+            <div class="right-content">
+              <div class="content-design">
+                <i class="ph-bold ph-device-mobile-camera"></i>
+                <p>UI/UX Design</p>
+              </div>
+              <div class="content-web">
+                <i class="ph-bold ph-browsers"></i>
+                <p>Web Development</p>
+              </div>
+              <div class="content-layout">
+                <i class="ph-bold ph-layout"></i>
+                <p>Layout Design</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="resume" id="resume">
+        <div class="content-resume">
+          <div class="my-resume" data-aos="fade-right">
+            <h1><span>My</span> Resume</h1>
+          </div>
+          <div data-aos="fade-up">
+            <div class="resume-blog">
+              <div class="resume-expertise">
+                <h2>Expertise</h2>
+                <div class="line"></div>
+                <h4>2019 - 2022</h4>
+                <h6>UI/UX Design</h6>
+                <p>
+                  Saya mulai belajar UI/UX Design pada jenjang SMA tepatnya pada
+                  kelas 10 dan saya masih mendalami nya sampai sekarang
+                </p>
+                <div class="underline"></div>
+                <h3>2022 - Now</h3>
+                <h5>Web Developmet</h5>
+                <p>
+                  Saya mulai belajar Web Development pada jenjang SMA tepatnya
+                  kelas 11 dan saya masih mendalami nya sampai sekarang
+                </p>
+              </div>
+              <div class="resume-education">
+                <h2>Education</h2>
+                <div class="line"></div>
+                <h4>2016 - 2019</h4>
+                <h6>PKBM Imam Syafi'i</h6>
+                <p>
+                  Saya menempuh jenjang pendidikan SMP saya di PKNM Imam Syafi'i
+                  selama 3 tahun belajar
+                </p>
+                <div class="underline"></div>
+                <h3>2019 - Now</h3>
+                <h5>SMA TI HSI - IDN</h5>
+                <p>
+                  dan saya menempuh jenjang pendidikan SMA saya di SMA TI
+                  HSI-IDN sampai sekarang dan saya mempelajari ilmu komputer
+                  pada jenjang ini
+                </p>
+              </div>
+              <div class="resume-skill">
+                <h2>Skills</h2>
+                <div class="line"></div>
+                <div class="container-skill">
+                  <div class="skill-box">
+                    <span class="title">HTML</span>
+
+                    <div class="skill-bar">
+                      <span class="skill-per">
+                        <span class="tooltip">90%</span>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="skill-box">
+                    <span class="title">CSS</span>
+
+                    <div class="skill-bar">
+                      <span class="skill-per css">
+                        <span class="tooltip">80%</span>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="skill-box">
+                    <span class="title">UI/UX Design</span>
+
+                    <div class="skill-bar">
+                      <span class="skill-per design">
+                        <span class="tooltip">70%</span>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="skill-box">
+                    <span class="title">Layout</span>
+
+                    <div class="skill-bar">
+                      <span class="skill-per layout">
+                        <span class="tooltip">60%</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="underline"></div>
+                <h3>Language</h3>
+                <div class="container-skill">
+                  <div class="skill-box">
+                    <span class="title">English</span>
+
+                    <div class="skill-bar">
+                      <span class="skill-per english">
+                        <span class="tooltip">70%</span>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="skill-box">
+                    <span class="title">Arabic</span>
+
+                    <div class="skill-bar">
+                      <span class="skill-per arabic">
+                        <span class="tooltip">60%</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TOOLS -->
+
+      <section class="tools">
+        <div class="tools-content">
+          <div class="tools-vscode">
+            <div class="images-vscode">
+              <img src="images/vscode.png" alt="" />
+            </div>
+            <div class="vertical-line"></div>
+            <div class="tools-about">
+              <h3>VS CODE</h3>
+              <p>Code studio yang saya gunakan</p>
+            </div>
+          </div>
+
+          <div class="tools-figma">
+            <div class="image-figma">
+              <img src="images/figma.png" alt="" />
+            </div>
+            <div class="vertical-line"></div>
+            <div class="tools-about">
+              <h3>FIGMA</h3>
+              <p>Tools saya untuk membangun design</p>
+            </div>
+          </div>
+
+          <div class="tools-capcut">
+            <div class="image-capcut">
+              <img src="images/capcut.png" alt="" />
+            </div>
+            <div class="vertical-line"></div>
+            <div class="tools-about">
+              <h3>CAPCUT</h3>
+              <p>Tools saya untuk Editing vidoe</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="certificate" id="certificate">
+        <div class="my-certificate" data-aos="fade-right">
+          <h1><span>My</span> Certificate</h1>
+        </div>
+        <div id="carouselExample" class="carousel slide" data-aos="fade-up">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/html.png" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="images/css.png" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="images/desain.png" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="images/mikrotik.png" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item w-100">
+              <img src="images/aguna.png" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="porto" id="porto">
+        <div class="porto-content">
+          <div class="my-porto" data-aos="fade-right">
+            <h1><span>My</span> Portofolio</h1>
+          </div>
+          <div class="gallery">
+            <ul class="controls">
+              <li class="buttons active" data-filter="all">All</li>
+              <li class="buttons" data-filter="diniyyah">Diniyyah</li>
+              <li class="buttons" data-filter="english">English</li>
+              <li class="buttons" data-filter="tahfidz">Tahfidz</li>
+              <li class="buttons" data-filter="technology">Technology</li>
+            </ul>
+            <div class="image-container">
+              <!-- DINIYYAH -->
+              <div class="image diniyyah" data-aos="fade-up">
+                <a href="https://youtu.be/MpHTbpTNI50" target="_blank">
+                  <img src="images/siroh.png" alt="" />
+                </a>
+              </div>
+
+              <div class="image diniyyah">
+                <a
+                  href="https://youtu.be/eZ5Wpe0iLjc?si=_ShOzibgiYGuQ_jl"
+                  target="_blank"
+                >
+                  <img src="images/thumnailmuhadatsah.png" alt="" />
+                </a>
+              </div>
+
+              <div class="image diniyyah">
+                <a href="https://youtu.be/dGVxyTWmEVk" target="_blank">
+                  <img src="images/arab 1.png" alt="" />
+                </a>
+              </div>
+
+              <div class="image diniyyah">
+                <a
+                  href="https://www.youtube.com/watch?v=wdVUFPg1xXo"
+                  target="_blank"
+                >
+                  <img src="images/arab2.png" alt="" />
+                </a>
+              </div>
+
+              <div class="image diniyyah">
+                <a href="https://youtu.be/pmS6XdVv5Bs" target="_blank">
+                  <img src="images/sholat sia sia.png" alt="" />
+                </a>
+              </div>
+
+              <div class="image diniyyah">
+                <a href="https://youtu.be/U1Yw-7-mwo0" target="_blank">
+                  <img src="images/gara gara malas.png" alt="" />
+                </a>
+              </div>
+
+              <div class="image diniyyah">
+                <a href="https://youtu.be/BfgRLkEz2e0" target="_blank">
+                  <img src="images/Taubat.png" alt="" />
+                </a>
+              </div>
+
+              <div class="image diniyyah">
+                <a href="https://youtu.be/Pu8cXSFxPhA" target="_blank">
+                  <img src="images/tauhid2.png" alt="" />
+                </a>
+              </div>
+
+              <div class="image diniyyah">
+                <a href="https://youtu.be/9-D4SnCWkPs" target="_blank">
+                  <img src="images/tauhid1.png" alt="" />
+                </a>
+              </div>
+
+              <div class="image diniyyah">
+                <a href="https://youtu.be/WIVCi-7h06o" target="_blank">
+                  <img src="images/nahwu.png" alt="" />
+                </a>
+              </div>
+
+              <div class="image diniyyah">
+                <a href="https://youtu.be/c7kiaopUiqg" target="_blank">
+                  <img src="images/fikih.png" alt="" />
+                </a>
+              </div>
+
+              <div class="image diniyyah">
+                <a
+                  href="https://drive.google.com/drive/u/0/folders/1m2S_CAETskWM1zBsPXfGS3icf8s7dnCY"
+                  target="_blank"
+                >
+                  <img src="images/mufrodat & poster.png" alt="" />
+                </a>
+              </div>
+              <!-- ENGLISH -->
+              <div class="image english">
+                <a
+                  href="https://www.youtube.com/shorts/66tSFjUPYhQ"
+                  target="_blank"
+                >
+                  <img src="images/motion inggris.png" alt="" />
+                </a>
+              </div>
+
+              <div class="image english">
+                <a
+                  href="https://drive.google.com/drive/u/0/folders/1m2S_CAETskWM1zBsPXfGS3icf8s7dnCY"
+                  target="_blank"
+                >
+                  <img src="images/english post.png" alt="" />
+                </a>
+              </div>
+
+              <div class="image english">
+                <a href="https://youtu.be/-8dCFrZ-Jug" target="_blank">
+                  <img src="images/conversation.png" alt="" />
+                </a>
+              </div>
+
+              <div class="image english">
+                <a href="https://youtu.be/BCvdTL3n1Yg" target="_blank">
+                  <img src="images/thumbnail motivasi inggris.png" alt="" />
+                </a>
+              </div>
+
+              <div class="image english">
+                <a href="https://youtu.be/A2skCzeMBTA" target="_blank">
+                  <img src="images/khulafaur rosyidin.png" alt="" />
+                </a>
+              </div>
+              <!-- TAHFIDZ -->
+              <div class="image tahfidz">
+                <a href="https://youtu.be/Rlhb8sLkYlE" target="_blank">
+                  <img src="images/tajwid.png" alt="" />
+                </a>
+              </div>
+
+              <div class="image tahfidz">
+                <a href="https://youtu.be/GfEg4IxGe_Y" target="_blank">
+                  <img src="images/murotal.png" alt="" />
+                </a>
+              </div>
+              <!-- TECHNOLOGY -->
+
+              <div class="image technology">
+                <a
+                  href="https://www.figma.com/proto/XJyVUTl5CX49bjC1ck6wDr/Portfolio-(Community)?node-id=102-2"
+                  target="_blank"
+                >
+                  <img src="images/portofilo2022.png" alt="" />
+                </a>
+              </div>
+
+              <div class="image technology">
+                <a href="https://dolan-dive.vercel.app/" target="_blank">
+                  <img src="images/dolan.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footer">
+          <p>&copy; 2023 Muhammad Daffa I F. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+    <!-- jquery cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- magnific cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".buttons").click(function () {
+          $(this).addClass("active").siblings().removeClass("active");
+
+          var filter = $(this).attr("data-filter");
+
+          if (filter == "all") {
+            $(".image").show(400);
+          } else {
+            $(".image")
+              .not("." + filter)
+              .hide(200);
+            $(".image")
+              .filter("." + filter)
+              .show(400);
+          }
+        });
+      });
+    </script>
+    <script>
+      function showSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "flex";
+      }
+      function hideSidebar() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "none";
+      }
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
